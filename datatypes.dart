@@ -15,10 +15,18 @@ void main(){
  print(s2.toUpperCase());
  print(s2.toUpperCase());*/
 
- int num = 5;
+ int s1 = 5;
  double d = 5.6;
  print(d.ceil());
  print(d.floor());
  print(d.truncate());
+
+ //Typecasting
+ String str = s1.toString(); //Integer to string
+ print(str);
+ print(num.parse(str));
+
+ //concatination
+ print("${s1+d}");
 
 }
