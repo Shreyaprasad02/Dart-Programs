@@ -1,32 +1,28 @@
 void main(){
-  /*int n = 10;
+  int n = 10;
   double d = 5.5;
-  String s2 = "               some\n thing ";
-
+  String s1 = "        some\n thing ";
+  print(s1);
  //multiline string
- String s1 = '''I am shreya
+ String s2 = '''I am shreya
 
  Who are you?''';
- print(s1);
+ print(s2);
 
  //string methods
- print(s2.trim());
+ print(s1.trim());
  print(s2.isEmpty);
- print(s2.toUpperCase());
- print(s2.toUpperCase());*/
-
- int s1 = 5;
- double d = 5.6;
+ print(s1.toUpperCase());
  print(d.ceil());
  print(d.floor());
  print(d.truncate());
 
  //Typecasting
- String str = s1.toString(); //Integer to string
+ String str = n.toString(); //Integer to string
  print(str);
- print(num.parse(str));
+ print(num.parse(str)); //string to integer
 
  //concatination
- print("${s1+d}");
+ print("${n+d}");
 
 }
