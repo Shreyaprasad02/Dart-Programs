@@ -1,5 +1,6 @@
 // List in dart
 void main(){
+  
   //static list
   List<int> first = [1, 2, 3, 4, 5]; 
   //dynamic list
@@ -18,4 +19,11 @@ void main(){
   for(var j in second){
     print(j);
   };
+  
+  List fourth = [1, 2, 3, 4, 5]; 
+  List third;
+  third = fourth.map((x) => x+x).toList();
+  print(third);
+
+  fourth.forEach((y) => print(y));
 }
