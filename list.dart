@@ -1,4 +1,4 @@
-// List in dart
+//List in dart
 void main(){
   
   //static list
@@ -12,7 +12,7 @@ void main(){
   print(second.isEmpty);
   print(second[3]);
   
-  // printing elements of list second
+  //printing elements of list second
   for(int i = 0; i<second.length; i++){
     print(second[i]);
   };
@@ -22,7 +22,7 @@ void main(){
   
   List fourth = [1, 2, 3, 4, 5]; 
   List third;
-  third = fourth.map((x) => x+x).toList();
+  third = fourth.map((x) => x*x).toList();
   print(third);
 
   fourth.forEach((y) => print(y));
