@@ -1,6 +1,6 @@
 // conditional statements in dart
 void main(){
-  //swutch statement
+  //switch statement
   switch(2){
     case 5: print('5');
     break;
@@ -18,4 +18,10 @@ void main(){
   else{
     print('not satisfied');
     }
-  }
+  
+  //ternary operator
+  int num = 5;
+  bool value = (num == 5 || num < 5)?true:false;
+  print(value);
+
+}
