@@ -10,7 +10,7 @@ void main(){
     break;
     default: print('Invalid Number');
   }
-  // if statement
+  //if statement
   int a = 10;
   if(a >= 5){
     print('t');
@@ -23,5 +23,4 @@ void main(){
   int num = 5;
   bool value = (num == 5 || num < 5)?true:false;
   print(value);
-
 }
